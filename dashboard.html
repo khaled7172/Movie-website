@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Add Tailwind CSS CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-green-500 p-4">
+    <!-- Add a navigation bar -->
+    <nav class="bg-gray-800 p-4"> <!-- Dark Gray -->
+        <ul class="flex justify-between space-x-4">
+            <li><a href="index.html" class="text-white">Home</a></li>
+            <li><a href="dashboard.html" class="text-white">Dashboard</a></li>
+            <li><a href="users.html" class="text-white">Users</a></li> <!-- Corrected link -->
+            <li><a href="logs.html" class="text-white">Logs</a></li>
+            <li><a href="video.html" class="text-white">Video</a></li>
+        </ul>
+    </nav>
+    <h1 class="capitalize text-4xl text-center bg-blue-700 text-white p-4">Dashboard</h1>
+    <div class="flex flex-col space-y-8">
+        <div class="flex flex-col items-center">
+            <h2 class="p-4 text-2xl">Pie chart that shows the popular movie genres</h2>
+            <img src="image.png" alt="" width="500" class="left">
+        </div>
+        <div class="flex flex-col items-center">
+            <h2 class="capitalize p-4 text-2xl">Bar graph that shows the ages of people who attend the movies</h2>
+            <img src="ss1.png" alt="" width="500" class="mx-auto"height="250">
+        </div>
+    </div>
+</body>
+
+</html>
